@@ -1,2 +1,5 @@
 ### Reptiles Index
 GET http://localhost:3000/reptiles
+
+### Reptiles Show
+GET http://localhost:3000/reptiles/1
