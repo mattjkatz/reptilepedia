@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get "/reptiles" => "retiles#index"
-  get "/reptiles/:id" => "retiles#index"
-  post "/reptiles/" => "retiles#index"
-  patch "/reptiles/:id" => "retiles#index"
-  delete "/reptiles/:id" => "retiles#index"
+  get "/reptiles" => "reptiles#index"
+  get "/reptiles/:id" => "reptiles#index"
+  post "/reptiles/" => "reptiles#index"
+  patch "/reptiles/:id" => "reptiles#index"
+  delete "/reptiles/:id" => "reptiles#index"
 end
