@@ -3,3 +3,15 @@ GET http://localhost:3000/reptiles
 
 ### Reptiles Show
 GET http://localhost:3000/reptiles/1
+
+### Reptiles Create
+GET http://localhost:3000/reptiles
+Content-Type: application/json
+
+{
+  "com_name": "",
+  "sci_name": "",
+  "class_id": ,
+  "origin": "",
+  "conservation_status": "",
+}
