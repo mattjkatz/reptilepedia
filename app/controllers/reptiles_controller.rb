@@ -22,4 +22,8 @@ class ReptilesController < ApplicationController
     render json: reptile
   end
 
+  def update
+    reptile = Reptile.find(params[:id])
+  end
+
 end
