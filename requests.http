@@ -5,13 +5,13 @@ GET http://localhost:3000/reptiles
 GET http://localhost:3000/reptiles/1
 
 ### Reptiles Create
-GET http://localhost:3000/reptiles
+POST http://localhost:3000/reptiles
 Content-Type: application/json
 
 {
-  "com_name": "",
-  "sci_name": "",
-  "class_id": ,
-  "origin": "",
-  "conservation_status": "",
+  "com_name": "Plains Hognose Snake",
+  "sci_name": "Heterodon nasicus",
+  "class_id": 3,
+  "origin": "North America",
+  "conservation_status": "Least Concern"
 }

@@ -12,11 +12,11 @@ class ReptilesController < ApplicationController
 
   def create
     reptile = Reptile.new(
-      "com_name" = params[:com_name]
-      "sci_name" = params[:sci_name]
-      "class_id" = params[:class_id]
-      "origin" = params[:origin]
-      "conservation_status" = params[:conservation_status]
+      "com_name": params[:com_name],
+      "sci_name": params[:sci_name],
+      "class_id": params[:class_id],
+      "origin": params[:origin],
+      "conservation_status": params[:conservation_status]
     )
     reptile.save
     render json: reptile
