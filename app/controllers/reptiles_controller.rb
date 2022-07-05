@@ -24,6 +24,13 @@ class ReptilesController < ApplicationController
 
   def update
     reptile = Reptile.find(params[:id])
+    reptile.com_name = params[:com_name] || reptile.com_name
+    reptile.sci_name = params[:sci_name] || reptile.sci_name
+    reptile.class_id = params[:class_id] || reptile.class_id
+    reptile.origin = params[:origin] || reptile.origin
+    reptile.conservation_status = params[:conservation_status] || reptile.conservation_status
+    reptile.save
+    render json: reptile
   end
 
 end
