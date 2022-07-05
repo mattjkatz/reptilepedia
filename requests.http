@@ -15,3 +15,12 @@ Content-Type: application/json
   "origin": "North America",
   "conservation_status": "Least Concern"
 }
+
+### Reptiles Update
+PATCH http://localhost:3000/reptiles/3
+Content-Type: application/json
+
+{
+  "com_name": "Russian Tortoise",
+  "sci_name": "Testudo horsfieldii"
+}
