@@ -33,4 +33,10 @@ class ReptilesController < ApplicationController
     render json: reptile
   end
 
+  def destroy
+    reptile = Reptile.find(params[:id])
+    reptile.delete
+    render json: {message: "Reptile successfully removed"}
+  end
+
 end
