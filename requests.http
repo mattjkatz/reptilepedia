@@ -27,3 +27,18 @@ Content-Type: application/json
 
 ### Reptiles Delete
 DELETE http://localhost:3000/reptiles/7
+
+### Users Index
+GET http://localhost:3000/users
+
+### Users Create
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "first_name": "Matt",
+  "last_name": "Katz",
+  "email": "matt@test.com",
+  "password": "password",
+  "password_confirmation": "password"
+}
