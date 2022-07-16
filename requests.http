@@ -11,7 +11,7 @@ Content-Type: application/json
 {
   "com_name": "Eastern Hognose Snake",
   "sci_name": "Heterodon nasicus",
-  "class_id": 3,
+  "classification": "",
   "origin": "North America",
   "conservation_status": "Least Concern"
 }
