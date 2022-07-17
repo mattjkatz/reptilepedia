@@ -1,3 +1,5 @@
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NTgxNzAyNzN9.ws6nQFWBW9El52-MKbNVYvoq9JPhpieZv097iAIHM9A
+
 ### Reptiles Index
 GET http://localhost:3000/reptiles
 
@@ -41,4 +43,13 @@ Content-Type: application/json
   "email": "matt@test.com",
   "password": "password",
   "password_confirmation": "password"
+}
+
+### Sessions Create (Login)
+POST http://localhost:3000/sessions
+Content-Type: application/json
+
+{
+  "email": "matt@test.com",
+  "password": "password"
 }

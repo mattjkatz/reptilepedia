@@ -8,4 +8,6 @@ Rails.application.routes.draw do
   # Reptile Routes
   get "/users" => "users#index"
   post "/users" => "users#create"
+  # Session Login Route
+  post "/sessions" => "sessions#create"
 end
