@@ -53,3 +53,30 @@ Content-Type: application/json
   "email": "matt@test.com",
   "password": "password"
 }
+
+### Posts Index
+GET http://localhost:3000/posts
+
+### Posts Show
+GET http://localhost:3000/posts/1
+
+### Posts Create
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+  "caption": "Frogs?",
+  "body": "Can I post about frogs?",
+  "user_id": "1"
+}
+
+### Posts Update
+PATCH http://localhost:3000/posts/2
+Content-Type: application/json
+
+{
+  "body": "Can I post about amphibians?"
+}
+
+### Posts Delete
+DELETE http://localhost:3000/posts/1
