@@ -6,8 +6,10 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-Reptile.create({com_name: "Bearded Dragon", sci_name: "Pogona vitticeps", origin: "Australia", conservation_status: "Least Concern"})
-Reptile.create({com_name: "Ball Python", sci_name: "Python regius", origin: "West and Central Africa", conservation_status: "Least Concern"})
-Reptile.create({com_name: "Russian Tortoise", sci_name: "Testudo horsfieldii", origin: "Central Asia", conservation_status: "Vulnerable"})
-Reptile.create({com_name: "Tuatara", sci_name: "Sphenodon", origin: "New Zealand", conservation_status: "At Risk"})
-Reptile.create({com_name: "American Alligator", sci_name: "Alligator mississippiensis", origin: "Southeastern United States", conservation_status: "Least Concern"})
+# Reptile.create({com_name: "Bearded Dragon", sci_name: "Pogona vitticeps", origin: "Australia", conservation_status: "Least Concern"})
+# Reptile.create({com_name: "Ball Python", sci_name: "Python regius", origin: "West and Central Africa", conservation_status: "Least Concern"})
+# Reptile.create({com_name: "Russian Tortoise", sci_name: "Testudo horsfieldii", origin: "Central Asia", conservation_status: "Vulnerable"})
+# Reptile.create({com_name: "Tuatara", sci_name: "Sphenodon", origin: "New Zealand", conservation_status: "At Risk"})
+# Reptile.create({com_name: "American Alligator", sci_name: "Alligator mississippiensis", origin: "Southeastern United States", conservation_status: "Least Concern"})
+
+Post.create({caption: "First Post!", body: "Wow, so cool!!! I can't wait to see this on the frontend.", user_id: 1})
